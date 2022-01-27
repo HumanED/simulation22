@@ -145,7 +145,7 @@
 </material>
 </collision>
 <visual>
-<origin xyz="-0.0432665 0.0870612 0.0693441" rpy="-1.58424 -0.00457455 1.99497" />
+<origin xyz="-0.0637243 0.135201 -0.0173069" rpy="-1.59616 1.0123 1.9734" />
 <geometry>
 <mesh filename="package://part_3.stl"/>
 </geometry>
@@ -154,7 +154,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.0432665 0.0870612 0.0693441" rpy="-1.58424 -0.00457455 1.99497" />
+<origin xyz="-0.0637243 0.135201 -0.0173069" rpy="-1.59616 1.0123 1.9734" />
 <geometry>
 <mesh filename="package://part_3.stl"/>
 </geometry>
@@ -217,7 +217,7 @@
 </material>
 </collision>
 <visual>
-<origin xyz="-0.00810758 -0.0199503 0.0687205" rpy="-1.55736 0.00457454 -1.14662" />
+<origin xyz="-0.0257103 0.0995138 0.0601747" rpy="-2.58324 -0.0134399 0.424114" />
 <geometry>
 <mesh filename="package://part_2.stl"/>
 </geometry>
@@ -226,7 +226,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.00810758 -0.0199503 0.0687205" rpy="-1.55736 0.00457454 -1.14662" />
+<origin xyz="-0.0257103 0.0995138 0.0601747" rpy="-2.58324 -0.0134399 0.424114" />
 <geometry>
 <mesh filename="package://part_2.stl"/>
 </geometry>
@@ -235,7 +235,7 @@
 </material>
 </collision>
 <visual>
-<origin xyz="-0.00106724 -0.000506899 -0.111086" rpy="1.58424 0.00457454 -1.14662" />
+<origin xyz="0.0230485 -0.0390456 -0.0455697" rpy="0.55835 -0.0134399 0.424114" />
 <geometry>
 <mesh filename="package://part_1.stl"/>
 </geometry>
@@ -244,7 +244,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.00106724 -0.000506899 -0.111086" rpy="1.58424 0.00457454 -1.14662" />
+<origin xyz="0.0230485 -0.0390456 -0.0455697" rpy="0.55835 -0.0134399 0.424114" />
 <geometry>
 <mesh filename="package://part_1.stl"/>
 </geometry>
@@ -253,7 +253,7 @@
 </material>
 </collision>
 <visual>
-<origin xyz="0.0622941 0.110815 -0.0253407" rpy="0.00368867 -0.0137096 0.489383" />
+<origin xyz="0.0626503 0.111016 -0.0279738" rpy="0.00369604 -0.0646196 0.489195" />
 <geometry>
 <mesh filename="package://part_10.stl"/>
 </geometry>
@@ -262,7 +262,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="0.0622941 0.110815 -0.0253407" rpy="0.00368867 -0.0137096 0.489383" />
+<origin xyz="0.0626503 0.111016 -0.0279738" rpy="0.00369604 -0.0646196 0.489195" />
 <geometry>
 <mesh filename="package://part_10.stl"/>
 </geometry>

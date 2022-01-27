@@ -1,15 +1,20 @@
+import argparse
+# import sys
 import os.path as path
-import sys
 import time
 
 import pybullet as p
 import pybullet_data
 
-# Process the argument and set urdf_file accordingly
-if len(sys.argv) != 2:
-    raise Exception('The script needs exactly one argument - the name of the folder to load the model from')
+parser = argparse.ArgumentParser(description='Script for quick displaying of a urdf file in pybullet.')
+parser.add_argument('passed_path_str', nargs=1, type=str,
+        help='path to the urdf file or a folder in which there is a \'robot.urdf\' file')
+parser.add_argument('-nf', '--not-fixed', action='store_true', default=False,
+        help='disable fixed base')
 
-passed_path = path.join(path.curdir, sys.argv[1])
+args = parser.parse_args()
+
+passed_path = path.join(path.curdir, args.passed_path_str[0])
 file_options = [passed_path, path.join(passed_path, 'robot.urdf')]
 urdf_file = None
 for file_option in file_options:
@@ -25,7 +30,7 @@ pc = p.connect(p.GUI)
 # Make it o that you can use the included demo models (not used rn)
 p.setAdditionalSearchPath(pybullet_data.getDataPath())
 # Load the requested urdf
-p.loadURDF(urdf_file, useFixedBase=True)
+p.loadURDF(urdf_file, useFixedBase=not args.not_fixed)
 
 # The rest is just left over but kept cause it might be useful
 
